@@ -1,0 +1,47 @@
+body {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+   box-shadow: 9px 3px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.react-logo {
+   width: 40px;
+}
+
+.nav-items {
+   list-style: none;
+   display: flex;
+   margin-right: 50px;
+}
+
+.nav-items>li {
+   padding: 10px 30px;
+   font-weight: 500;
+}
+
+.nav-items>li:hover {
+   color: rgb(130, 220, 230);
+   cursor: pointer;
+}
+
+.foot {
+   height: 50px;
+   padding-left: 10px;
+   color: rgb(130, 220, 230);
+   background-color: rgb(179, 179, 179);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
